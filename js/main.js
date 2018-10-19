@@ -4,7 +4,7 @@ var play = true ;
 function save(){
     alert("i am not  uploading  to fire base") ;
     score = 0;
-    time = 20 ;
+    time = 10 ;
     document.getElementById("score").innerHTML = "score : " + score ;
     document.getElementById("time").innerHTML =  time ;
     play = true ;
