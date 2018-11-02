@@ -20,7 +20,7 @@ setInterval(function(){
     }
 },1000);
 
-document.addEventListener('keydown',function(){
+document.addEventListener('keyup',function(){
     if(play){score++ ;}
     document.getElementById("score").innerHTML = "score : " + score ;
 });
